@@ -21,11 +21,11 @@ const Navbar = () => {
             </ul>
 
             <div className='app__navbar-menu'>
-                <HiMenuAlt4 onClick={() => setToggle(true)} />
+                <HiMenuAlt4 className='cursor-pointer' onClick={() => setToggle(true)} />
                 {toggle && (
                     <motion.div whileInView={{ x: [300, 0] }}
                         transition={{ duration: 0.85, ease: "easeOut" }}>
-                        <HiX onClick={() => setToggle(false)} />
+                        <HiX className='cursor-pointer' onClick={() => setToggle(false)} />
                         <ul className='app__navbar-links'>
                             {["Home", "About", "Work", "Skills", "Contact"].map((item) => (
                                 <li key={`link-${item}`}>
