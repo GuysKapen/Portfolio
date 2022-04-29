@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import "./Header.scss";
 import { images } from "../../constants"
+import { Section } from "../../layout"
+
 const Header = () => {
     const scaleVariants = {
         whileInView: {
@@ -66,4 +68,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default Section(Header, "home");

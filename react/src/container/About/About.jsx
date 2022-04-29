@@ -2,6 +2,7 @@ import React from 'react';
 import './About.scss';
 import { motion } from "framer-motion";
 import { images } from '../../constants';
+import { Section } from '../../layout';
 
 const About = () => {
     const abouts = [
@@ -48,4 +49,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default Section(About, "about");
