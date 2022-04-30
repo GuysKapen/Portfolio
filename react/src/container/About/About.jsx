@@ -7,23 +7,23 @@ import { Section } from '../../layout';
 const About = () => {
     const abouts = [
         {
-            title: "Web developer",
-            description: "I am a good web developer",
+            title: "Fronted developer",
+            description: "I am a fronted developer with a passion for building beautiful and functional web applications",
             imgUrl: images.about01
         },
         {
             title: "Mobile developer",
-            description: "I am a good web developer",
+            description: "I am a mobile developer with a passion for building beautiful and functional mobile applications",
             imgUrl: images.about02
         },
         {
-            title: "AI engenieer",
-            description: "I am a good web developer",
+            title: "AI engineer",
+            description: "I am a AI engineer with a passion for building beautiful and functional AI applications",
             imgUrl: images.about03
         },
         {
-            title: "UI/UX desginer",
-            description: "I am a good web developer",
+            title: "Backend Developer",
+            description: "I am a backend developer with a passion for building beautiful and functional web applications",
             imgUrl: images.about04
         },
     ]
