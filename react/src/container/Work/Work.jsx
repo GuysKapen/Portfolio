@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import "./Work.scss";
 import { images } from '../../constants';
 import { Section } from '../../layout';
+import MotionWrap from '../../layout/MotionWrap';
 const Work = () => {
 
     const works = [
@@ -150,4 +151,4 @@ const Work = () => {
     );
 }
 
-export default Section(Work, "work", "app__works");
+export default Section(MotionWrap(Work, "app_works"), "work", "app__primarybg");

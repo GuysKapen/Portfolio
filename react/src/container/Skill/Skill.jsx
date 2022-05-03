@@ -8,33 +8,34 @@ import { Section } from '../../layout';
 import ReactTooltip from "react-tooltip";
 import "./Skill.scss";
 import Work from '../Work/Work';
+import MotionWrap from '../../layout/MotionWrap';
 
 const Skill = () => {
 
     const skills = [
         {
             name: "React",
-            bgColor: null,
+            bgColor: "#edf2f8",
             icon: images.react
         },
         {
             name: "Figma",
-            bgColor: "",
+            bgColor: "#edf2f8",
             icon: images.figma
         },
         {
             name: "Flutter",
-            bgColor: "",
+            bgColor: "#edf2f8",
             icon: images.flutter
         },
         {
             name: "Node JS",
-            bgColor: "",
+            bgColor: "#edf2f8",
             icon: images.node
         },
         {
             name: "Github",
-            bgColor: "",
+            bgColor: "#edf2f8",
             icon: images.git
         },
     ];
@@ -136,4 +137,4 @@ const Skill = () => {
     );
 }
 
-export default Section(Skill, "skills");
+export default Section(MotionWrap(Skill, "app__skills"), "skills", "app__whitebg");

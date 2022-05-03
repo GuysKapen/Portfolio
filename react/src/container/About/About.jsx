@@ -3,6 +3,7 @@ import './About.scss';
 import { motion } from "framer-motion";
 import { images } from '../../constants';
 import { Section } from '../../layout';
+import MotionWrap from '../../layout/MotionWrap';
 
 const About = () => {
     const abouts = [
@@ -49,4 +50,4 @@ const About = () => {
     );
 }
 
-export default Section(About, "about");
+export default Section(MotionWrap(About, "app__about"), "about", "app__whitebg");
