@@ -5,8 +5,9 @@ import { motion } from "framer-motion";
 
 import { images } from '../../constants';
 import { Section } from '../../layout';
-import ReactTooltip from "react-tooltip";
+import { Tooltip as ReactTooltip } from "react-tooltip";
 import "./Skill.scss";
+import "react-tooltip/dist/react-tooltip.css";
 import Work from '../Work/Work';
 import MotionWrap from '../../layout/MotionWrap';
 
@@ -92,7 +93,7 @@ const Skill = () => {
                     ))}
                 </motion.div>
                 <motion.div className='app__skills-exp'>
-                    {experiences.map((exp) => (
+                    {experiences.map((exp, expIdx) => (
                         <motion.div
                             whileInView={{ opacity: [0, 1] }}
                             transition={{ duration: 0.5 }}
@@ -104,8 +105,8 @@ const Skill = () => {
                             <motion.div
                                 className='app__skills-exp-works'
                                 key={exp.year}>
-                                {exp.works.map((work) => (
-                                    <div key={work.name}>
+                                {exp.works.map((work, idx) => (
+                                    <div id={`work-${expIdx}-${idx}`} key={work.name}>
                                         <motion.div
                                             whileInView={{ opacity: [0, 1] }}
                                             transition={{ duration: 0.5 }}
@@ -117,11 +118,10 @@ const Skill = () => {
                                             <p className="p-text">{work.company}</p>
                                         </motion.div>
                                         <ReactTooltip
-                                            id={work.name}
+                                            anchorId={`work-${expIdx}-${idx}`}
                                             effect="solid"
                                             arrowColor='#fff'
-                                            className='skills-tooltip'
-                                            afterShow={() => setTimeout(ReactTooltip.hide())}>
+                                            className='skills-tooltip'>
                                             {work.desc}
                                         </ReactTooltip>
                                     </div>
