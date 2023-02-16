@@ -301,7 +301,7 @@ const Work = () => {
             <div className='app__work-filter'>
                 {['UI/UX', 'Web App', "Mobile App", "React JS", "All"].map((item, index) => (
                     <div
-                        key={index}
+                        key={item}
                         onClick={() => handleWorkFilter(item)}
                         className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ''}`}
                     >
@@ -320,7 +320,7 @@ const Work = () => {
                     <motion.div
                         whileInView={{ opacity: [0, 1], y: [100, 0] }}
                         transition={{ duration: 0.25 }}
-                        className='app__work-item app__flex' key={`${work.title}-${index}`}>
+                        className='app__work-item app__flex' key={`${work.title}`}>
                         <div className='app__work-img app__flex'>
                             <img src={work.imgUrl} alt={work.title} />
 
