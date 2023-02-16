@@ -11,7 +11,7 @@ const Work = () => {
 
     const works = [
         {
-            title: "Modern UI/UX website",
+            title: "A Modern UI/UX website",
             description: "A modern UI/UX Portfolio Website",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
@@ -22,7 +22,7 @@ const Work = () => {
             ]
         },
         {
-            title: "Ecommericial Project",
+            title: "An Ecommericial Project",
             description: "A modern UI/UX ECommericial Website with Ruby on Rails",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
@@ -44,7 +44,7 @@ const Work = () => {
             ]
         },
         {
-            title: "An Forum Website with Chatbox Project",
+            title: "A Forum Website with Chatbox Project",
             description: "A modern UI/UX Forum Website with Chatbox using VueJS, Node JS and Rasa",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
@@ -55,8 +55,52 @@ const Work = () => {
             ]
         },
         {
-            title: "Cool Mobile Meditation App",
+            title: "A Photobook Website Project",
+            description: "A modern UI/UX Photobook website using VueJS, Node JS and SQLITE",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Web App",
+                "All"
+            ]
+        },
+        {
+            title: "A Simple Blog Website",
+            description: "A simple blog website using Laravel",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Web App",
+                "All"
+            ]
+        },
+        {
+            title: "A Simple Restaurent Website",
+            description: "A simple restaurent website using Laravel",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Web App",
+                "All"
+            ]
+        },
+        {
+            title: "A Cool Mobile Meditation App",
             description: "A Mobile Meditation app with Flutter",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about03,
+            tags: [
+                "Mobile App",
+                "All"
+            ]
+        },
+        {
+            title: "A Peaceful Mobile Sleep App",
+            description: "A Mobile Sleep helper app with Flutter",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
             imgUrl: images.about03,
@@ -145,7 +189,89 @@ const Work = () => {
                 "Blockchain",
                 "All"
             ]
-        }
+        },
+        {
+            title: "A Modern Social Media Website",
+            description: "A modern UI/UX image social website with React JS and Node JS",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about03,
+            tags: [
+                "Web App",
+                "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "Modern Udo Task Landing Website",
+            description: "A modern landing website for UdoTask application with React JS and Frame Motion",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about03,
+            tags: [
+                "Web App",
+                "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "Modern Omoir Landing Website",
+            description: "A modern landing website for Diary application with React JS and Frame Motion",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about02,
+            tags: [
+                "Web App",
+                "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "Modern MusicOwl Landing Website",
+            description: "A modern landing website for Music application with React JS and Frame Motion",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Web App",
+                "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "Modern English Learning Landing Website",
+            description: "A modern landing website for English learning application with React JS and Frame Motion",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about02,
+            tags: [
+                "Web App",
+                "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "A Forum Chatbox",
+            description: "A Chatbox for Forum website powered by Rasa",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about02,
+            tags: [
+                "Chatbox",
+                "All"
+            ]
+        },
+        {
+            title: "A ILearning Chatbox",
+            description: "A Chatbox for ILearning website powered by Rasa",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about02,
+            tags: [
+                "Chatbox",
+                "All"
+            ]
+        },
     ]
 
     const [activeFilter, setActiveFilter] = useState("All");
