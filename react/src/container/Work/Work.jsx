@@ -23,10 +23,32 @@ const Work = () => {
         },
         {
             title: "Ecommericial Project",
-            description: "A modern UI/UX ECommericial Website",
+            description: "A modern UI/UX ECommericial Website with Ruby on Rails",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
             imgUrl: images.about02,
+            tags: [
+                "Web App",
+                "All"
+            ]
+        },
+        {
+            title: "An E-Learning Website Project",
+            description: "A modern UI/UX E-Elearning Website using Laravel",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about01,
+            tags: [
+                "Web App",
+                "All"
+            ]
+        },
+        {
+            title: "An Forum Website with Chatbox Project",
+            description: "A modern UI/UX Forum Website with Chatbox using VueJS, Node JS and Rasa",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
             tags: [
                 "Web App",
                 "All"
@@ -44,6 +66,50 @@ const Work = () => {
             ]
         },
         {
+            title: "Awesome Mobile Diary App",
+            description: "A Mobile Diary app with Android using Kotlin, Room, Coroutine and Machine Learning with Tensorflow lite",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Mobile App",
+                "All"
+            ]
+        },
+        {
+            title: "A Friendly Todo App",
+            description: "A friendly yet effective mobile todo list app with Android using Kotlin, Room and Coroutine",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about01,
+            tags: [
+                "Mobile App",
+                "All"
+            ]
+        },
+        {
+            title: "A Decent Music App",
+            description: "A friendly and simple mobile music app with Android using Kotlin, Room and Material Design",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Mobile App",
+                "All"
+            ]
+        },
+        {
+            title: "A Simple English Learning App",
+            description: "A simple yet effective mobile English learning app with Android using Kotlin, Room and Coroutine",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about01,
+            tags: [
+                "Mobile App",
+                "All"
+            ]
+        },
+        {
             title: "Modern Blog website",
             description: "A modern Blog website with React JS and Node JS",
             projectLink: "https://nestify.com",
@@ -52,6 +118,31 @@ const Work = () => {
             tags: [
                 "Web App",
                 "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "Modern Block chain website",
+            description: "A modern block chain website with React JS and Solidity",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about01,
+            tags: [
+                "Web App",
+                "React JS",
+                "All"
+            ]
+        },
+        {
+            title: "Modern NFT card game website",
+            description: "A modern NFT website with React JS, Smart Contract and Solidity",
+            projectLink: "https://nestify.com",
+            codeLink: "https://github.com",
+            imgUrl: images.about04,
+            tags: [
+                "Web App",
+                "React JS",
+                "Blockchain",
                 "All"
             ]
         }
@@ -102,7 +193,7 @@ const Work = () => {
                 {filteredWorks.map((work, index) => (
                     <motion.div
                         whileInView={{ opacity: [0, 1], y: [100, 0] }}
-                        transition={{ duration: 0.25 }} 
+                        transition={{ duration: 0.25 }}
                         className='app__work-item app__flex' key={`${work.title}-${index}`}>
                         <div className='app__work-img app__flex'>
                             <img src={work.imgUrl} alt={work.title} />
