@@ -35,6 +35,28 @@ import nb from '../assets/images/nb.png';
 import skype from '../assets/images/skype.png';
 import spotify from '../assets/images/spotify.png';
 
+import diaryApp from '../assets/images/shot_diary_app.png';
+import englishApp from '../assets/images/shot_english_learning_app.png';
+import musicApp from '../assets/images/shot_music_owl_app.png';
+import musicOwl from '../assets/images/shot_music_owl.png';
+import omoir from '../assets/images/shot_omoir.png';
+import udoApp from '../assets/images/shot_udo_app.png';
+import udoTask from '../assets/images/shot_udo_task.png';
+import ilearning from '../assets/images/shot_ilearning.png';
+import forum from '../assets/images/shot_forum.png';
+import walling from '../assets/images/shot_walling.png';
+import libsio from '../assets/images/libsio.png';
+import photobook from '../assets/images/photobook.png';
+import railsEcommer from '../assets/images/rails_ecommer.png';
+import laravelBlog from '../assets/images/laravel_blog.png';
+import laravelRestaurent from '../assets/images/laravel_restaurent.png';
+import flutterSleepery from '../assets/images/flutter_sleepery.png';
+import flutterMeditate from '../assets/images/flutter_meditate.png';
+import chatboxForum from '../assets/images/chatbox_forum.jpg';
+import chatboxIlearning from '../assets/images/chatbox_ilearning.png';
+import mernBlog from '../assets/images/mern_blog.png';
+import portfolio from '../assets/images/portfolio.png';
+
 export default {
   email,
   mobile,
@@ -69,4 +91,25 @@ export default {
   nb,
   skype,
   spotify,
+  diaryApp,
+  englishApp,
+  musicApp,
+  musicOwl,
+  omoir,
+  udoApp,
+  udoTask,
+  ilearning,
+  forum,
+  walling,
+  railsEcommer,
+  laravelBlog,
+  libsio,
+  photobook,
+  laravelRestaurent,
+  flutterSleepery,
+  flutterMeditate,
+  chatboxForum,
+  chatboxIlearning,
+  mernBlog,
+  portfolio
 };

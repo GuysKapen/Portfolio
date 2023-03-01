@@ -15,7 +15,7 @@ const Work = () => {
             description: "A modern UI/UX Portfolio Website",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about01,
+            imgUrl: images.portfolio,
             tags: [
                 "UI/UX",
                 "All"
@@ -26,7 +26,7 @@ const Work = () => {
             description: "A modern UI/UX ECommericial Website with Ruby on Rails",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about02,
+            imgUrl: images.railsEcommer,
             tags: [
                 "Web App",
                 "All"
@@ -37,7 +37,7 @@ const Work = () => {
             description: "A modern UI/UX E-Elearning Website using Laravel",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about01,
+            imgUrl: images.ilearning,
             tags: [
                 "Web App",
                 "All"
@@ -48,7 +48,7 @@ const Work = () => {
             description: "A modern UI/UX Forum Website with Chatbox using VueJS, Node JS and Rasa",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.forum,
             tags: [
                 "Web App",
                 "All"
@@ -59,7 +59,7 @@ const Work = () => {
             description: "A modern UI/UX Photobook website using VueJS, Node JS and SQLITE",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.photobook,
             tags: [
                 "Web App",
                 "All"
@@ -70,7 +70,7 @@ const Work = () => {
             description: "A simple blog website using Laravel",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.laravelBlog,
             tags: [
                 "Web App",
                 "All"
@@ -81,7 +81,7 @@ const Work = () => {
             description: "A simple restaurent website using Laravel",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.laravelRestaurent,
             tags: [
                 "Web App",
                 "All"
@@ -92,7 +92,7 @@ const Work = () => {
             description: "A Mobile Meditation app with Flutter",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about03,
+            imgUrl: images.flutterMeditate,
             tags: [
                 "Mobile App",
                 "All"
@@ -103,18 +103,18 @@ const Work = () => {
             description: "A Mobile Sleep helper app with Flutter",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about03,
+            imgUrl: images.flutterSleepery,
             tags: [
                 "Mobile App",
                 "All"
             ]
         },
         {
-            title: "Awesome Mobile Diary App",
+            title: "An Awesome Mobile Diary App",
             description: "A Mobile Diary app with Android using Kotlin, Room, Coroutine and Machine Learning with Tensorflow lite",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.diaryApp,
             tags: [
                 "Mobile App",
                 "All"
@@ -125,7 +125,7 @@ const Work = () => {
             description: "A friendly yet effective mobile todo list app with Android using Kotlin, Room and Coroutine",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about01,
+            imgUrl: images.udoApp,
             tags: [
                 "Mobile App",
                 "All"
@@ -136,7 +136,7 @@ const Work = () => {
             description: "A friendly and simple mobile music app with Android using Kotlin, Room and Material Design",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.musicApp,
             tags: [
                 "Mobile App",
                 "All"
@@ -147,7 +147,7 @@ const Work = () => {
             description: "A simple yet effective mobile English learning app with Android using Kotlin, Room and Coroutine",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about01,
+            imgUrl: images.englishApp,
             tags: [
                 "Mobile App",
                 "All"
@@ -158,7 +158,7 @@ const Work = () => {
             description: "A modern Blog website with React JS and Node JS",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.mernBlog,
             tags: [
                 "Web App",
                 "React JS",
@@ -207,7 +207,7 @@ const Work = () => {
             description: "A modern landing website for UdoTask application with React JS and Frame Motion",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about03,
+            imgUrl: images.udoTask,
             tags: [
                 "Web App",
                 "React JS",
@@ -219,7 +219,7 @@ const Work = () => {
             description: "A modern landing website for Diary application with React JS and Frame Motion",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about02,
+            imgUrl: images.omoir,
             tags: [
                 "Web App",
                 "React JS",
@@ -231,7 +231,7 @@ const Work = () => {
             description: "A modern landing website for Music application with React JS and Frame Motion",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about04,
+            imgUrl: images.musicOwl,
             tags: [
                 "Web App",
                 "React JS",
@@ -243,7 +243,7 @@ const Work = () => {
             description: "A modern landing website for English learning application with React JS and Frame Motion",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about02,
+            imgUrl: images.walling,
             tags: [
                 "Web App",
                 "React JS",
@@ -255,7 +255,7 @@ const Work = () => {
             description: "A Chatbox for Forum website powered by Rasa",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about02,
+            imgUrl: images.chatboxForum,
             tags: [
                 "Chatbox",
                 "All"
@@ -266,7 +266,7 @@ const Work = () => {
             description: "A Chatbox for ILearning website powered by Rasa",
             projectLink: "https://nestify.com",
             codeLink: "https://github.com",
-            imgUrl: images.about02,
+            imgUrl: images.chatboxIlearning,
             tags: [
                 "Chatbox",
                 "All"
