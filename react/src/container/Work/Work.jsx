@@ -25,7 +25,7 @@ const Work = () => {
             title: "An Ecommericial Project",
             description: "A modern UI/UX ECommericial Website with Ruby on Rails",
             projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            codeLink: "https://github.com/GuysKapen/RailsEcommer",
             imgUrl: images.railsEcommer,
             tags: [
                 "Web App",
@@ -35,8 +35,8 @@ const Work = () => {
         {
             title: "An E-Learning Website Project",
             description: "A modern UI/UX E-Elearning Website using Laravel",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://ilearning.fly.dev/",
+            codeLink: "https://github.com/GuysKapen/ELearningLaravel",
             imgUrl: images.ilearning,
             tags: [
                 "Web App",
@@ -46,8 +46,8 @@ const Work = () => {
         {
             title: "A Forum Website with Chatbox Project",
             description: "A modern UI/UX Forum Website with Chatbox using VueJS, Node JS and Rasa",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://forumbot.netlify.app/",
+            codeLink: "https://github.com/GuysKapen/ForumWeb",
             imgUrl: images.forum,
             tags: [
                 "Web App",
@@ -57,8 +57,8 @@ const Work = () => {
         {
             title: "A Photobook Website Project",
             description: "A modern UI/UX Photobook website using VueJS, Node JS and SQLITE",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://guys-photoalbum.netlify.app/",
+            codeLink: "https://github.com/GuysKapen/PhotoAlbum",
             imgUrl: images.photobook,
             tags: [
                 "Web App",
@@ -69,7 +69,7 @@ const Work = () => {
             title: "A Simple Blog Website",
             description: "A simple blog website using Laravel",
             projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            codeLink: "https://github.com/GuysKapen/LaravelBlog",
             imgUrl: images.laravelBlog,
             tags: [
                 "Web App",
@@ -80,7 +80,7 @@ const Work = () => {
             title: "A Simple Restaurent Website",
             description: "A simple restaurent website using Laravel",
             projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            codeLink: "https://github.com/GuysKapen/LaravelRestaurent",
             imgUrl: images.laravelRestaurent,
             tags: [
                 "Web App",
@@ -90,7 +90,7 @@ const Work = () => {
         {
             title: "A Cool Mobile Meditation App",
             description: "A Mobile Meditation app with Flutter",
-            projectLink: "https://nestify.com",
+            projectLink: "",
             codeLink: "https://github.com",
             imgUrl: images.flutterMeditate,
             tags: [
@@ -101,8 +101,8 @@ const Work = () => {
         {
             title: "A Peaceful Mobile Sleep App",
             description: "A Mobile Sleep helper app with Flutter",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "",
+            codeLink: "",
             imgUrl: images.flutterSleepery,
             tags: [
                 "Mobile App",
@@ -112,8 +112,8 @@ const Work = () => {
         {
             title: "An Awesome Mobile Diary App",
             description: "A Mobile Diary app with Android using Kotlin, Room, Coroutine and Machine Learning with Tensorflow lite",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://play.google.com/store/apps/details?id=com.guysrobot.musicapplication",
+            codeLink: "",
             imgUrl: images.diaryApp,
             tags: [
                 "Mobile App",
@@ -123,8 +123,8 @@ const Work = () => {
         {
             title: "A Friendly Todo App",
             description: "A friendly yet effective mobile todo list app with Android using Kotlin, Room and Coroutine",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://play.google.com/store/apps/details?id=com.guysrobot.todotask",
+            codeLink: "",
             imgUrl: images.udoApp,
             tags: [
                 "Mobile App",
@@ -134,8 +134,8 @@ const Work = () => {
         {
             title: "A Decent Music App",
             description: "A friendly and simple mobile music app with Android using Kotlin, Room and Material Design",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://play.google.com/store/apps/details?id=com.guysrobot.musicapplication",
+            codeLink: "",
             imgUrl: images.musicApp,
             tags: [
                 "Mobile App",
@@ -145,8 +145,8 @@ const Work = () => {
         {
             title: "A Simple English Learning App",
             description: "A simple yet effective mobile English learning app with Android using Kotlin, Room and Coroutine",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://play.google.com/store/apps/details?id=com.bpguysrobot.englishvocabulary",
+            codeLink: "",
             imgUrl: images.englishApp,
             tags: [
                 "Mobile App",
@@ -156,8 +156,8 @@ const Work = () => {
         {
             title: "Modern Blog website",
             description: "A modern Blog website with React JS and Node JS",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://bloguys.netlify.app/",
+            codeLink: "https://github.com/GuysRGithub/BlogPostNodeJs",
             imgUrl: images.mernBlog,
             tags: [
                 "Web App",
@@ -168,8 +168,8 @@ const Work = () => {
         {
             title: "Modern Block chain website",
             description: "A modern block chain website with React JS and Solidity",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://netlify.com",
+            codeLink: "https://github.com/GuyRobot/FoundingUI",
             imgUrl: images.about01,
             tags: [
                 "Web App",
@@ -180,8 +180,8 @@ const Work = () => {
         {
             title: "Modern NFT card game website",
             description: "A modern NFT website with React JS, Smart Contract and Solidity",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://netlify.com",
+            codeLink: "https://github.com/GuyRobot/Web3Game",
             imgUrl: images.about04,
             tags: [
                 "Web App",
@@ -193,8 +193,8 @@ const Work = () => {
         {
             title: "A Modern Social Media Website",
             description: "A modern UI/UX image social website with React JS and Node JS",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://shareinterest.netlify.app/",
+            codeLink: "https://github.com/GuysKapen/ShareInterest",
             imgUrl: images.about03,
             tags: [
                 "Web App",
@@ -205,8 +205,8 @@ const Work = () => {
         {
             title: "Modern Udo Task Landing Website",
             description: "A modern landing website for UdoTask application with React JS and Frame Motion",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://udotodo.netlify.app/",
+            codeLink: "",
             imgUrl: images.udoTask,
             tags: [
                 "Web App",
@@ -217,8 +217,8 @@ const Work = () => {
         {
             title: "Modern Omoir Landing Website",
             description: "A modern landing website for Diary application with React JS and Frame Motion",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://udotodo.netlify.app/",
+            codeLink: "",
             imgUrl: images.omoir,
             tags: [
                 "Web App",
@@ -229,8 +229,8 @@ const Work = () => {
         {
             title: "Modern MusicOwl Landing Website",
             description: "A modern landing website for Music application with React JS and Frame Motion",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://musicowl.netlify.app/",
+            codeLink: "",
             imgUrl: images.musicOwl,
             tags: [
                 "Web App",
@@ -241,8 +241,8 @@ const Work = () => {
         {
             title: "Modern English Learning Landing Website",
             description: "A modern landing website for English learning application with React JS and Frame Motion",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "https://ielearn.netlify.app/",
+            codeLink: "",
             imgUrl: images.walling,
             tags: [
                 "Web App",
@@ -253,8 +253,8 @@ const Work = () => {
         {
             title: "A Forum Chatbox",
             description: "A Chatbox for Forum website powered by Rasa",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "",
+            codeLink: "https://github.com/GuysKapen/ForumChatbox",
             imgUrl: images.chatboxForum,
             tags: [
                 "Chatbox",
@@ -264,8 +264,8 @@ const Work = () => {
         {
             title: "A ILearning Chatbox",
             description: "A Chatbox for ILearning website powered by Rasa",
-            projectLink: "https://nestify.com",
-            codeLink: "https://github.com",
+            projectLink: "",
+            codeLink: "https://github.com/GuysKapen/ILearning-Chatbox",
             imgUrl: images.chatboxIlearning,
             tags: [
                 "Chatbox",
@@ -328,7 +328,7 @@ const Work = () => {
                                 whileHover={{ opacity: [0, 1] }}
                                 transition={{ duration: 0.25, ease: "easeInOut", staggerChildren: 0.5 }}
                                 className="app__work-hover app__flex">
-                                <a href={work.projectLink} target="_blank" rel='noreferrer' >
+                                {(work.projectLink && <a href={work.projectLink} target="_blank" rel='noreferrer' >
                                     <motion.div
                                         whileInView={{ scale: [0, 1] }}
                                         whileHover={{ scale: [1, 0.9] }}
@@ -336,9 +336,9 @@ const Work = () => {
                                         className="app__flex">
                                         <AiFillEye />
                                     </motion.div>
-                                </a>
+                                </a>)}
 
-                                <a href={work.codeLink} target="_blank" rel='noreferrer' >
+                                {(work.codeLink && <a href={work.codeLink} target="_blank" rel='noreferrer' >
                                     <motion.div
                                         whileInView={{ scale: [0, 1] }}
                                         whileHover={{ scale: [1, 0.9] }}
@@ -346,7 +346,7 @@ const Work = () => {
                                         className="app__flex">
                                         <AiFillGithub />
                                     </motion.div>
-                                </a>
+                                </a>)}
 
                             </motion.div>
                         </div>
