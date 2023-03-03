@@ -17,7 +17,7 @@ const Header = () => {
         }
     };
     return (
-        <div className='app__header app__flex'>
+        <div className='app__header app__flex relative'>
             <motion.div whileInView={{ x: [-100, 0], opacity: [0, 1] }}
                 transition={{ duration: 0.5 }}
                 className='app__header-info'>
@@ -65,11 +65,31 @@ const Header = () => {
                 className='app__header-circles'
             >
 
-                {[images.flutter, images.redux, images.sass].map((circle, index) => (
+                {[images.vue, images.android, images.flutter].map((circle, index) => (
                     <div className='circle-cmp app__flex' key={`circle-${index}`}>
                         <img src={circle} alt="circle_image" />
                     </div>
                 ))}
+
+            </motion.div>
+
+            <motion.div
+                variants={scaleVariants}
+                whileInView={scaleVariants.whileInView}
+                className='absolute left-0 bottom-12'
+            >
+
+                <div className='flex justify-center items-center bg-white rounded-full p-5 absolute left-20 bottom-0 w-24'>
+                    <img src={images.react} alt="circle_image" />
+                </div>
+
+                <div className='flex justify-center items-center bg-white rounded-full p-5 absolute left-48 bottom-28 w-20'>
+                    <img src={images.python} alt="circle_image" />
+                </div>
+
+                <div className='flex justify-center items-center bg-white rounded-full p-5 absolute bottom-40 w-20'>
+                    <img src={images.node} alt="circle_image" />
+                </div>
 
             </motion.div>
         </div>

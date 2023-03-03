@@ -17,6 +17,7 @@ import redux from '../assets/images/redux.png';
 import sass from '../assets/images/sass.png';
 import typescript from '../assets/images/typescript.png';
 import vue from '../assets/images/vue.png';
+import android from '../assets/images/android.png';
 
 import about01 from '../assets/images/about01.png';
 import about02 from '../assets/images/about02.png';
@@ -77,6 +78,7 @@ export default {
   sass,
   typescript,
   vue,
+  android,
   about01,
   about02,
   about03,
