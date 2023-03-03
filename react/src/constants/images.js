@@ -25,7 +25,7 @@ import about04 from '../assets/images/about04.png';
 
 import profile from '../assets/images/profile.png';
 import circle from '../assets/images/circle.svg';
-import logo from '../assets/images/logo.png';
+import logo from '../assets/images/logo_guys.png';
 
 import adidas from '../assets/images/adidas.png';
 import amazon from '../assets/images/amazon.png';
