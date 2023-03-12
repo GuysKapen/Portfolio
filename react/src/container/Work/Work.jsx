@@ -168,9 +168,9 @@ const Work = () => {
         {
             title: "Modern Block chain website",
             description: "A modern block chain website with React JS and Solidity",
-            projectLink: "https://netlify.com",
+            projectLink: "https://ether-founding.netlify.app/",
             codeLink: "https://github.com/GuyRobot/FoundingUI",
-            imgUrl: images.about01,
+            imgUrl: images.foundingBlockchain,
             tags: [
                 "Web App",
                 "React JS",
@@ -180,9 +180,9 @@ const Work = () => {
         {
             title: "Modern NFT card game website",
             description: "A modern NFT website with React JS, Smart Contract and Solidity",
-            projectLink: "https://netlify.com",
+            projectLink: "https://ether-card-game.netlify.app/",
             codeLink: "https://github.com/GuyRobot/Web3Game",
-            imgUrl: images.about04,
+            imgUrl: images.etherCardGame,
             tags: [
                 "Web App",
                 "React JS",
