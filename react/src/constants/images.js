@@ -21,7 +21,7 @@ import android from '../assets/images/android.png';
 import docker from '../assets/images/docker.png';
 import laravel from '../assets/images/laravel.png';
 import django from '../assets/images/django.png';
-import rubyOnRails from '../assets/images/rubyOnRails.png';
+import rubyOnRails from '../assets/images/rubyonrails.png';
 import springBoot from '../assets/images/springboot.png';
 import dotnet from '../assets/images/dot-net.png';
 import tensorflow from '../assets/images/tensorflow.png';
