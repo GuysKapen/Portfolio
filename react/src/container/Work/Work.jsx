@@ -195,7 +195,7 @@ const Work = () => {
             description: "A modern UI/UX image social website with React JS and Node JS",
             projectLink: "https://shareinterest.netlify.app/",
             codeLink: "https://github.com/GuysKapen/ShareInterest",
-            imgUrl: images.about03,
+            imgUrl: images.shareInterest,
             tags: [
                 "Web App",
                 "React JS",

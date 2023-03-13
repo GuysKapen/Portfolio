@@ -67,6 +67,7 @@ import mernBlog from '../assets/images/mern_blog.png';
 import portfolio from '../assets/images/portfolio.png';
 import foundingBlockchain from '../assets/images/shot_founding_blockchain.png';
 import etherCardGame from '../assets/images/shot_ether_card_game.png';
+import shareInterest from '../assets/images/shot_share_interest.png';
 
 export default {
   email,
@@ -133,5 +134,6 @@ export default {
   mernBlog,
   portfolio,
   foundingBlockchain,
-  etherCardGame
+  etherCardGame,
+  shareInterest
 };
