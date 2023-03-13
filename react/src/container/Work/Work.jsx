@@ -123,7 +123,7 @@ const Work = () => {
         {
             title: "An Awesome Mobile Diary App",
             description: "A Mobile Diary app with Android using Kotlin, Room, Coroutine and Machine Learning with Tensorflow lite",
-            projectLink: "https://play.google.com/store/apps/details?id=com.guysrobot.musicapplication",
+            projectLink: "https://play.google.com/store/apps/details?id=com.guysrobot.diaryforlife",
             codeLink: "",
             imgUrl: images.diaryApp,
             tags: [
@@ -234,7 +234,7 @@ const Work = () => {
         {
             title: "Modern Omoir Landing Website",
             description: "A modern landing website for Diary application with React JS and Frame Motion",
-            projectLink: "https://udotodo.netlify.app/",
+            projectLink: "https://omoir.netlify.app/",
             codeLink: "",
             imgUrl: images.omoir,
             tags: [
