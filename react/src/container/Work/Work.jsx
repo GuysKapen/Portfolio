@@ -18,6 +18,7 @@ const Work = () => {
             imgUrl: images.portfolio,
             tags: [
                 "UI/UX",
+                "React JS",
                 "All"
             ]
         },
@@ -29,6 +30,7 @@ const Work = () => {
             imgUrl: images.railsEcommer,
             tags: [
                 "Web App",
+                "Ruby on Rails",
                 "All"
             ]
         },
@@ -40,6 +42,7 @@ const Work = () => {
             imgUrl: images.ilearning,
             tags: [
                 "Web App",
+                "Laravel",
                 "All"
             ]
         },
@@ -51,6 +54,8 @@ const Work = () => {
             imgUrl: images.forum,
             tags: [
                 "Web App",
+                "Vue JS",
+                "Node JS",
                 "All"
             ]
         },
@@ -62,6 +67,8 @@ const Work = () => {
             imgUrl: images.photobook,
             tags: [
                 "Web App",
+                "Vue JS",
+                "Node JS",
                 "All"
             ]
         },
@@ -73,6 +80,7 @@ const Work = () => {
             imgUrl: images.laravelBlog,
             tags: [
                 "Web App",
+                "Laravel",
                 "All"
             ]
         },
@@ -84,6 +92,7 @@ const Work = () => {
             imgUrl: images.laravelRestaurent,
             tags: [
                 "Web App",
+                "Laravel",
                 "All"
             ]
         },
@@ -95,6 +104,7 @@ const Work = () => {
             imgUrl: images.flutterMeditate,
             tags: [
                 "Mobile App",
+                "Flutter",
                 "All"
             ]
         },
@@ -106,6 +116,7 @@ const Work = () => {
             imgUrl: images.flutterSleepery,
             tags: [
                 "Mobile App",
+                "Flutter",
                 "All"
             ]
         },
@@ -117,6 +128,7 @@ const Work = () => {
             imgUrl: images.diaryApp,
             tags: [
                 "Mobile App",
+                "Android",
                 "All"
             ]
         },
@@ -128,6 +140,7 @@ const Work = () => {
             imgUrl: images.udoApp,
             tags: [
                 "Mobile App",
+                "Android",
                 "All"
             ]
         },
@@ -139,6 +152,7 @@ const Work = () => {
             imgUrl: images.musicApp,
             tags: [
                 "Mobile App",
+                "Android",
                 "All"
             ]
         },
@@ -150,6 +164,7 @@ const Work = () => {
             imgUrl: images.englishApp,
             tags: [
                 "Mobile App",
+                "Android",
                 "All"
             ]
         },
@@ -174,6 +189,7 @@ const Work = () => {
             tags: [
                 "Web App",
                 "React JS",
+                "Blockchain",
                 "All"
             ]
         },
@@ -199,6 +215,7 @@ const Work = () => {
             tags: [
                 "Web App",
                 "React JS",
+                "Node JS",
                 "All"
             ]
         },
@@ -257,7 +274,7 @@ const Work = () => {
             codeLink: "https://github.com/GuysKapen/ForumChatbox",
             imgUrl: images.chatboxForum,
             tags: [
-                "Chatbox",
+                "Chatbot",
                 "All"
             ]
         },
@@ -268,7 +285,7 @@ const Work = () => {
             codeLink: "https://github.com/GuysKapen/ILearning-Chatbox",
             imgUrl: images.chatboxIlearning,
             tags: [
-                "Chatbox",
+                "Chatbot",
                 "All"
             ]
         },
@@ -299,7 +316,7 @@ const Work = () => {
             <h2 className="head-text">Creative <span>Portfolio</span> Section</h2>
 
             <div className='app__work-filter'>
-                {['UI/UX', 'Web App', "Mobile App", "React JS", "All"].map((item, index) => (
+                {['UI/UX', 'Web App', "Mobile App", "Android", "Flutter", "Vue JS", "React JS", "Node JS", "Laravel", "Ruby on Rails", "Chatbot", "All"].map((item, index) => (
                     <div
                         key={item}
                         onClick={() => handleWorkFilter(item)}
