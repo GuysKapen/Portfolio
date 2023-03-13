@@ -18,6 +18,14 @@ import sass from '../assets/images/sass.png';
 import typescript from '../assets/images/typescript.png';
 import vue from '../assets/images/vue.png';
 import android from '../assets/images/android.png';
+import docker from '../assets/images/docker.png';
+import laravel from '../assets/images/laravel.png';
+import django from '../assets/images/django.png';
+import rubyOnRails from '../assets/images/rubyOnRails.png';
+import springBoot from '../assets/images/springboot.png';
+import dotnet from '../assets/images/dot-net.png';
+import tensorflow from '../assets/images/tensorflow.png';
+import chatbot from '../assets/images/chatbot.png';
 
 import about01 from '../assets/images/about01.png';
 import about02 from '../assets/images/about02.png';
@@ -80,7 +88,15 @@ export default {
   sass,
   typescript,
   vue,
+  docker,
+  laravel,
+  rubyOnRails,
+  springBoot,
+  dotnet,
+  django,
   android,
+  tensorflow,
+  chatbot,
   about01,
   about02,
   about03,

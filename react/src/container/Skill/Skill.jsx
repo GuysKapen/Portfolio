@@ -20,14 +20,14 @@ const Skill = () => {
             icon: images.react
         },
         {
-            name: "Figma",
+            name: "Redux",
             bgColor: "#edf2f8",
-            icon: images.figma
+            icon: images.redux
         },
         {
-            name: "Flutter",
+            name: "VueJS",
             bgColor: "#edf2f8",
-            icon: images.flutter
+            icon: images.vue
         },
         {
             name: "Node JS",
@@ -35,9 +35,69 @@ const Skill = () => {
             icon: images.node
         },
         {
+            name: "Android",
+            bgColor: "#edf2f8",
+            icon: images.android
+        },
+        {
+            name: "Flutter",
+            bgColor: "#edf2f8",
+            icon: images.flutter
+        },
+        {
+            name: "Python",
+            bgColor: "#edf2f8",
+            icon: images.python
+        },
+        {
+            name: "Django",
+            bgColor: "#edf2f8",
+            icon: images.django
+        },
+        {
+            name: "Laravel",
+            bgColor: "#edf2f8",
+            icon: images.laravel
+        },
+        {
+            name: "Ruby On Rails",
+            bgColor: "#edf2f8",
+            icon: images.rubyOnRails
+        },
+        {
+            name: "Spring Boot",
+            bgColor: "#edf2f8",
+            icon: images.springBoot
+        },
+        {
+            name: ".NET",
+            bgColor: "#edf2f8",
+            icon: images.dotnet
+        },
+        {
             name: "Github",
             bgColor: "#edf2f8",
             icon: images.git
+        },
+        {
+            name: "Docker",
+            bgColor: "#edf2f8",
+            icon: images.docker
+        },
+        {
+            name: "Figma",
+            bgColor: "#edf2f8",
+            icon: images.figma
+        },
+        {
+            name: "Tensorflow",
+            bgColor: "#edf2f8",
+            icon: images.tensorflow
+        },
+        {
+            name: "Chatbot",
+            bgColor: "#edf2f8",
+            icon: images.chatbot
         },
     ];
     const experiences = [
@@ -92,7 +152,7 @@ const Skill = () => {
                         </motion.div>
                     ))}
                 </motion.div>
-                <motion.div className='app__skills-exp'>
+                {/* <motion.div className='app__skills-exp'>
                     {experiences.map((exp, expIdx) => (
                         <motion.div
                             whileInView={{ opacity: [0, 1] }}
@@ -131,7 +191,7 @@ const Skill = () => {
 
                         </motion.div>
                     ))}
-                </motion.div>
+                </motion.div> */}
             </div>
         </>
     );
